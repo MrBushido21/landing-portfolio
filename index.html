@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/defolt.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,700" rel="stylesheet"/>
+    <link rel="stylesheet" href="./css/landing-protfolio.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+               <div class="header__flexrow">
+                    <div class="header__logo">
+                        <a href="#" class="header__logo-link">
+                            <img src="./img/logo.svg" alt="logo" class="header__logo-img">
+                        </a>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li class="header__item link"><a href="#about" class="header__link">About</a></li>
+                            <li class="header__item link"><a href="#projects" class="header__link">Projects</a></li>
+                            <li class="header__item link"><a href="#reviews" class="header__link">Reviews</a></li>
+                            <li class="header__item link"><a href="#contacts" class="header__link">Contacts</a></li>
+                        </ul>
+                    </nav>
+                    <button class="burger">
+                        <span class="span-burger"></span>
+                    </button>
+               </div >
+            </div>
+        </header>
+        <div class="sub-header">
+            <div class="sub-header__flexrow">
+                <div class="sub-header__block-info">
+                    <h1 class="sub-header__h1">Michael Scofield</h1>
+                    <h2 class="sub-header__h2">Fullstack web developer</h2>
+                    <ul class="sub-header__list">
+                        <li class="sub-header__item">UI / UX Design</li>
+                        <li class="sub-header__item">QA Testing</li>
+                        <li class="sub-header__item">Mobile Apps</li>
+                        <li class="sub-header__item">Web development</li>
+                    </ul>
+                </div>
+                <div class="sub-header__block-image">
+                    <canvas id="canvasOne" width="550" height="550">
+                        Your browser does not support HTML5 canvas.
+                    </canvas>
+                </div>
+            </div>
+        </div>
+         <!-- main  -->
+        <main class="page">
+            <!-- about -->
+            <section id="about" class="page__about about">
+                <div class="about__title">
+                    <h4 class="about__h4">About</h4>
+                    <h3 class="about__h3">History of my development:</h3>
+                </div>
+                <div class="about__grid first">
+                    <ul class="about__cart">
+                        <li class="about__year">2015</li>
+                        <li class="about__text">First project. Blog for the teacher</li>
+                    </ul>
+                    <ul class="about__cart">
+                        <li class="about__year">2016</li>
+                        <li class="about__text">Development of the first mobile application</li>
+                    </ul>
+                    <ul class="about__cart">
+                        <li class="about__year">2017</li>
+                        <li class="about__text">The portfolio includes over 100 projects</li>
+                    </ul>
+                </div>
+                <div class="about__grid">
+                    <ul class="about__cart">
+                        <li class="about__year">2018</li>
+                        <li class="about__text">First international project</li>
+                    </ul>
+                    <ul class="about__cart">
+                        <li class="about__year">2019</li>
+                        <li class="about__text">Launching a personal web development course</li>
+                    </ul>
+                    <ul class="about__cart">
+                        <li class="about__year">2020+</li>
+                        <li class="about__text">Started working in Google</li>
+                    </ul>
+                </div>
+            </section>
+            <!-- projects -->
+            <section id="projects" class="page__projects projects">
+                <div class="projects__title">
+                    <h4 class="projects__h4">Projects</h4>
+                    <h3 class="projects__h3">100+ projects on different topics:</h3>
+                </div>
+                <div class="projects__tab-links">
+                    <a href="" class="projects__tab-link active link">Blogs</a>
+                    <a href="" class="projects__tab-link link">CRM</a>
+                    <a href="" class="projects__tab-link link">Educational   platform</a>
+                    <a href="" class="projects__tab-link link">Banking applications</a>
+                    <a href="" class="projects__tab-link link">Mobile applications</a>
+                    <a href="" class="projects__tab-link link">Mobile games</a>
+                    <a href="" class="projects__tab-link link">Social networks</a>
+                </div>
+                <div class="projects__content active">
+                    <div class="projects__name">Blogs</div>
+                    <div class="projects__acardeon">
+                        <div class="projects__acardeon-item active">
+                            <div class="projects__acardeon-title">
+                                <div class="projects__acardeon-name link">Blog 1</div>
+                                <div class="projects__acardeon-image">
+                                    <img src="./img/Vector.svg" alt="vector" class="projects__acardeon-img">
+                                </div>
+                            </div >
+                            <div class="projects__acardeon-content">some kind of link to the site</div>
+                        </div>
+                        <div class="projects__acardeon-item">
+                            <div class="projects__acardeon-title">
+                                <div class="projects__acardeon-name link">Blog 2</div>
+                                <div class="projects__acardeon-image">
+                                    <img src="./img/Vector.svg" alt="vector" class="projects__acardeon-img">
+                                </div>
+                            </div >
+                            <div class="projects__acardeon-content">some kind of link to the site</div>
+                        </div>
+                        <div class="projects__acardeon-item">
+                            <div class="projects__acardeon-title">
+                                <div class="projects__acardeon-name link">Blog 3</div>
+                                <div class="projects__acardeon-image">
+                                    <img src="./img/Vector.svg" alt="vector" class="projects__acardeon-img">
+                                </div>
+                            </div >
+                            <div class="projects__acardeon-content">some kind of link to the site</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects__content">
+                    <div class="projects__name">CRM</div>
+                    <div class="projects__acardeon">
+                        <div class="projects__acardeon-item active">
+                            <div class="projects__acardeon-title">
+                                <div class="projects__acardeon-name">Blog 1</div>
+                                <div class="projects__acardeon-image">
+                                    <img src="./img/Vector.svg" alt="vector" class="projects__acardeon-img">
+                                </div>
+                            </div >
+                            <div class="projects__acardeon-content">some kind of link to the site</div>
+                        </div>
+                        <div class="projects__acardeon-item">
+                            <div class="projects__acardeon-title">
+                                <div class="projects__acardeon-name">Blog 2</div>
+                                <div class="projects__acardeon-image">
+                                    <img src="./img/Vector.svg" alt="vector" class="projects__acardeon-img">
+                                </div>
+                            </div >
+                            <div class="projects__acardeon-content">some kind of link to the site</div>
+                        </div>
+                        <div class="projects__acardeon-item">
+                            <div class="projects__acardeon-title">
+                                <div class="projects__acardeon-name">Blog 3</div>
+                                <div class="projects__acardeon-image">
+                                    <img src="./img/Vector.svg" alt="vector" class="projects__acardeon-img">
+                                </div>
+                            </div >
+                            <div class="projects__acardeon-content">some kind of link to the site</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects__content">
+                    <div class="projects__name">Educational platform</div>
+                    <div class="projects__acardeon">
+                        <div class="projects__acardeon-item active">
+                            <div class="projects__acardeon-title">
+                                <div class="projects__acardeon-name">Blog 1</div>
+                                <div class="projects__acardeon-image">
+                                    <img src="./img/Vector.svg" alt="vector" class="projects__acardeon-img">
+                                </div>
+                            </div >
+                            <div class="projects__acardeon-content">some kind of link to the site</div>
+                        </div>
+                        <div class="projects__acardeon-item">
+                            <div class="projects__acardeon-title">
+                                <div class="projects__acardeon-name">Blog 2</div>
+                                <div class="projects__acardeon-image">
+                                    <img src="./img/Vector.svg" alt="vector" class="projects__acardeon-img">
+                                </div>
+                            </div >
+                            <div class="projects__acardeon-content">some kind of link to the site</div>
+                        </div>
+                        <div class="projects__acardeon-item">
+                            <div class="projects__acardeon-title">
+                                <div class="projects__acardeon-name">Blog 3</div>
+                                <div class="projects__acardeon-image">
+                                    <img src="./img/Vector.svg" alt="vector" class="projects__acardeon-img">
+                                </div>
+                            </div >
+                            <div class="projects__acardeon-content">some kind of link to the site</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects__content">
+                    <div class="projects__name">Banking applications</div>
+                    <div class="projects__acardeon">
+                        <div class="projects__acardeon-item active">
+                            <div class="projects__acardeon-title">
+                                <div class="projects__acardeon-name">Blog 1</div>
+                                <div class="projects__acardeon-image">
+                                    <img src="./img/Vector.svg" alt="vector" class="projects__acardeon-img">
+                                </div>
+                            </div >
+                            <div class="projects__acardeon-content">some kind of link to the site</div>
+                        </div>
+                        <div class="projects__acardeon-item">
+                            <div class="projects__acardeon-title">
+                                <div class="projects__acardeon-name">Blog 2</div>
+                                <div class="projects__acardeon-image">
+                                    <img src="./img/Vector.svg" alt="vector" class="projects__acardeon-img">
+                                </div>
+                            </div >
+                            <div class="projects__acardeon-content">some kind of link to the site</div>
+                        </div>
+                        <div class="projects__acardeon-item">
+                            <div class="projects__acardeon-title">
+                                <div class="projects__acardeon-name">Blog 3</div>
+                                <div class="projects__acardeon-image">
+                                    <img src="./img/Vector.svg" alt="vector" class="projects__acardeon-img">
+                                </div>
+                            </div >
+                            <div class="projects__acardeon-content">some kind of link to the site</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects__content">
+                    <div class="projects__name">Mobile applications</div>
+                    <div class="projects__acardeon">
+                        <div class="projects__acardeon-item active">
+                            <div class="projects__acardeon-title">
+                                <div class="projects__acardeon-name">Blog 1</div>
+                                <div class="projects__acardeon-image">
+                                    <img src="./img/Vector.svg" alt="vector" class="projects__acardeon-img">
+                                </div>
+                            </div >
+                            <div class="projects__acardeon-content">some kind of link to the site</div>
+                        </div>
+                        <div class="projects__acardeon-item">
+                            <div class="projects__acardeon-title">
+                                <div class="projects__acardeon-name">Blog 2</div>
+                                <div class="projects__acardeon-image">
+                                    <img src="./img/Vector.svg" alt="vector" class="projects__acardeon-img">
+                                </div>
+                            </div >
+                            <div class="projects__acardeon-content">some kind of link to the site</div>
+                        </div>
+                        <div class="projects__acardeon-item">
+                            <div class="projects__acardeon-title">
+                                <div class="projects__acardeon-name">Blog 3</div>
+                                <div class="projects__acardeon-image">
+                                    <img src="./img/Vector.svg" alt="vector" class="projects__acardeon-img">
+                                </div>
+                            </div >
+                            <div class="projects__acardeon-content">some kind of link to the site</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects__content">
+                    <div class="projects__name">Mobile games</div>
+                    <div class="projects__acardeon">
+                        <div class="projects__acardeon-item active">
+                            <div class="projects__acardeon-title">
+                                <div class="projects__acardeon-name">Blog 1</div>
+                                <div class="projects__acardeon-image">
+                                    <img src="./img/Vector.svg" alt="vector" class="projects__acardeon-img">
+                                </div>
+                            </div >
+                            <div class="projects__acardeon-content">some kind of link to the site</div>
+                        </div>
+                        <div class="projects__acardeon-item">
+                            <div class="projects__acardeon-title">
+                                <div class="projects__acardeon-name">Blog 2</div>
+                                <div class="projects__acardeon-image">
+                                    <img src="./img/Vector.svg" alt="vector" class="projects__acardeon-img">
+                                </div>
+                            </div >
+                            <div class="projects__acardeon-content">some kind of link to the site</div>
+                        </div>
+                        <div class="projects__acardeon-item">
+                            <div class="projects__acardeon-title">
+                                <div class="projects__acardeon-name">Blog 3</div>
+                                <div class="projects__acardeon-image">
+                                    <img src="./img/Vector.svg" alt="vector" class="projects__acardeon-img">
+                                </div>
+                            </div >
+                            <div class="projects__acardeon-content">some kind of link to the site</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects__content">
+                    <div class="projects__name">Social networks</div>
+                    <div class="projects__acardeon">
+                        <div class="projects__acardeon-item active">
+                            <div class="projects__acardeon-title">
+                                <div class="projects__acardeon-name">Blog 1</div>
+                                <div class="projects__acardeon-image">
+                                    <img src="./img/Vector.svg" alt="vector" class="projects__acardeon-img">
+                                </div>
+                            </div >
+                            <div class="projects__acardeon-content">some kind of link to the site</div>
+                        </div>
+                        <div class="projects__acardeon-item">
+                            <div class="projects__acardeon-title">
+                                <div class="projects__acardeon-name">Blog 2</div>
+                                <div class="projects__acardeon-image">
+                                    <img src="./img/Vector.svg" alt="vector" class="projects__acardeon-img">
+                                </div>
+                            </div >
+                            <div class="projects__acardeon-content">some kind of link to the site</div>
+                        </div>
+                        <div class="projects__acardeon-item">
+                            <div class="projects__acardeon-title">
+                                <div class="projects__acardeon-name">Blog 3</div>
+                                <div class="projects__acardeon-image">
+                                    <img src="./img/Vector.svg" alt="vector" class="projects__acardeon-img">
+                                </div>
+                            </div >
+                            <div class="projects__acardeon-content">some kind of link to the site</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- write -->
+            <section class="page__write write">
+                <div class="write__content-box">
+                    <h2 class="write__h2">Write to me and I will answer within the next 24 hours</h2>
+                    <a href="#popup" class="write__link link0">Discuss the project</a>
+                </div>
+                <div id="popup" class="write__popup">
+                    <form action="" class="write__form">
+                            <div class="close link">+</div>
+                            <h3 class="write__h3">Сontact me:</h3>
+                            <div class="write__block-form">
+                                <input type="text" class="write__input" placeholder="Name">
+                                <textarea class="write__textarea" cols="30" rows="10" placeholder="Message"></textarea>
+                            </div >
+                            <button type="submit" class="write__button">Discuss the project</button>
+                    </form>
+                </div>
+            </section>
+            <!-- reviews -->
+            <section id="reviews" class="page__reviews reviews">
+                <div class="reviews__title">
+                    <h4 class="reviews__h4">Reviews</h4>
+                    <h3 class="reviews__h3">What my clients say about me:</h3>
+                </div>
+                <div class="reviews__flexrow">
+                    <div class="reviews__slider swiper">
+                        <div class="reviews__wrapper swiper-wrapper">
+                            <div class="reviews__cart swiper-slide">
+                                <div class="reviews__image">
+                                    <img src="./img/avatar01.svg" alt="avatar" class="reviews__img">
+                                </div>
+                               <div>
+                                    <h5 class="reviews__h5">Lincoln Burrows</h5>
+                                    <p class="reviews__text">Thanks to Michael for doing everything efficiently on time and without broaches. I recommend this specialist for work. Special thanks to Michael for the work that was not included in the original.</p>
+                               </div>
+                            </div>
+                            <div class="reviews__cart swiper-slide">
+                                <div class="reviews__image">
+                                    <img src="./img/avatar02.svg" alt="avatar" class="reviews__img">
+                                </div>
+                               <div>
+                                    <h5 class="reviews__h5">Gretchen Morgan</h5>
+                                    <p class="reviews__text">Thank you very much for your work, the project was completed very quickly and efficiently. I recommend it as a reliable performer! I will contact you in the future.</p>
+                               </div>
+                            </div>
+                            <div class="reviews__cart swiper-slide">
+                                <div class="reviews__image">
+                                    <img src="./img/avatar03.svg" alt="avatar" class="reviews__img">
+                                </div>
+                               <div>
+                                    <h5 class="reviews__h5">Paul Kellerman</h5>
+                                    <p class="reviews__text">The performer who specifically understands the task. Very cool and easy to communicate. I did an excellent job, I will contact you. I advise everyone!</p>
+                               </div>
+                            </div>
+                            <div class="reviews__cart swiper-slide">
+                                <div class="reviews__image">
+                                    <img src="./img/avatar02.svg" alt="avatar" class="reviews__img">
+                                </div>
+                               <div>
+                                    <h5 class="reviews__h5">Gretchen Morgan</h5>
+                                    <p class="reviews__text">Thank you very much for your work, the project was completed very quickly and efficiently. I recommend it as a reliable performer! I will contact you in the future.</p>
+                               </div>
+                            </div>
+                            <div class="reviews__cart swiper-slide">
+                                <div class="reviews__image">
+                                    <img src="./img/avatar01.svg" alt="avatar" class="reviews__img">
+                                </div>
+                               <div>
+                                    <h5 class="reviews__h5">Lincoln Burrows</h5>
+                                    <p class="reviews__text">Thanks to Michael for doing everything efficiently on time and without broaches. I recommend this specialist for work. Special thanks to Michael for the work that was not included in the original.</p>
+                               </div>
+                            </div>
+                            <div class="reviews__cart swiper-slide">
+                                <div class="reviews__image">
+                                    <img src="./img/avatar02.svg" alt="avatar" class="reviews__img">
+                                </div>
+                               <div>
+                                    <h5 class="reviews__h5">Gretchen Morgan</h5>
+                                    <p class="reviews__text">Thank you very much for your work, the project was completed very quickly and efficiently. I recommend it as a reliable performer! I will contact you in the future.</p>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__buttons">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!-- footer -->
+    <footer id="contacts" class="footer">
+        <div class="footer__container">
+            <div class="footer__flexrow">
+                <div class="footer__content">
+                    <div class="footer__title">
+                        <h3 class="footer__h3">Calculate the timing and cost of your project</h3>
+                        <p class="footer__text">Leave your phone number for communication</p>
+                    </div>
+                    <form class="footer__form">
+                        <input type="text" class="footer__input"  placeholder="Name">
+                        <input type="tel" class="footer__input" placeholder="Phone">
+                        <textarea placeholder="Message" class="footer__textarea" cols="30" rows="10"></textarea>
+                        <div class="footer__box-button"><button class="footer__button link" type="submit">Discuss the project</button></div >
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
