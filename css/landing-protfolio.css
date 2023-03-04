@@ -810,8 +810,6 @@ body._lock {
     position: relative !important;
   }
   .swiper-button-prev::after {
-    content: url("../landing-portfolio/img/but-left.svg");
-    position: absolute;
     top: 0px;
     left: 27px;
   }
@@ -819,8 +817,6 @@ body._lock {
     position: relative !important;
   }
   .swiper-button-next::after {
-    content: url("../landing-portfolio/img/but-right.svg");
-    position: absolute;
     top: 0px;
     right: 27px;
   }
