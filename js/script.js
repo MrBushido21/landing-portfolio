@@ -386,11 +386,13 @@ writeLink.addEventListener('click', function(evt) {
 
 writeClose.addEventListener('click', function() {
   writePopup.classList.remove('active');
+  document.body.classList.remove('_lock');
 });
 
 window.addEventListener('click', function(evt) {
   if (evt.target === writePopup) {
     writePopup.classList.remove('active');
+    document.body.classList.remove('_lock');
   }
 });
 // //================================================================================================================================================
