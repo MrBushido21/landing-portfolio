@@ -381,6 +381,7 @@ const writeClose = writePopup.querySelector('.close');
 writeLink.addEventListener('click', function(evt) {
   evt.preventDefault();
   writePopup.classList.add('active');
+  document.body.classList.toggle('_lock');
 });
 
 writeClose.addEventListener('click', function() {
