@@ -822,7 +822,7 @@ body._lock {
   }
 }
 .footer {
-  background: #121212 url("../landing-portfolio/img/bg.png") left no-repeat;
+  background: #121212 url("../img/bg.png") left no-repeat;
   z-index: 3;
 }
 .footer__container {
